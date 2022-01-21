@@ -1,4 +1,4 @@
-<?php require ('actions/signupAction.php'); ?>
+<?php require('actions/loginAction.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php'; ?>
@@ -19,21 +19,14 @@
             <input type="text" class="form-control" name="pseudo">
         </div>
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nom</label>
-            <input type="text" class="form-control" name="lastname">
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Prénom</label>
-            <input type="text" class="form-control" name="firstname">
-        </div>
-        <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input type="password" class="form-control" name="password">
         </div>
-        <button type="submit" class="btn btn-primary" name="validate">S'inscrire</button>
+        <button type="submit" class="btn btn-primary" name="validate">Se connecter</button>
+
         <br><br>
-        <a href="login.php">
-            <p>Vous avez déja un compte ? Connectez-vous</p>
+        <a href="signup.php">
+            <p>Vous n'avez pas de compte ? Inscrivez-vous</p>
         </a>
     </form>
     
